@@ -45,7 +45,7 @@ body{
 .profile {
   display: block;
   margin: 20% auto;
-  min-width: 70%;
+  max-width: 70%;
   height: auto;
 
 }
