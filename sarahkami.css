@@ -1,7 +1,8 @@
 @font-face {
-font-family: "Selima";
-src:url("/Users/Sarah/Coding/eigeneWebseite/Selima.ttf") format("ttf"),
-    url("/Users/Sarah/Coding/eigeneWebseite/Selima.otf") format("otf");
+font-family: 'Selima';
+font-style: normal;
+font-weight: normal;
+src: local('Selima'), url('Selima .woff') format('woff');
 }
 
 html{
@@ -14,6 +15,8 @@ body{
 
 .name {
   font-family: "Selima";
+  font-weight: normal;
+  font-size: 42px;
   text-align: center;
   margin: 3rem;
 }
