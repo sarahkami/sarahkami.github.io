@@ -1,8 +1,11 @@
 @font-face {
-font-family: 'Selima';
-font-style: normal;
-font-weight: normal;
-src: local('Selima'), url('Selima .woff') format('woff');
+    font-family: 'Selima';
+    src:url('Selima.ttf.woff') format('woff'),
+        url('Selima.ttf.svg#Selima') format('svg'),
+        url('Selima.ttf.eot'),
+        url('Selima.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html{
@@ -14,7 +17,7 @@ body{
 }
 
 .name {
-  font-family: "Selima";
+  font-family: 'Selima';
   font-weight: normal;
   font-size: 42px;
   text-align: center;
@@ -22,7 +25,7 @@ body{
 }
 
 .link {
-  font-family: "Selima";
+  font-family: 'Selima';
   text-align: center;
   margin: 3rem;
   text-decoration: none;
@@ -39,9 +42,11 @@ body{
   color: white;
 }
 
-.profil {
+.profile {
   display: block;
   margin: 20% auto;
+  min-width: 70%;
+  height: auto;
 
 }
 
