@@ -1,0 +1,98 @@
+@font-face {
+font-family: "Selima";
+src:url("/Users/Sarah/Coding/eigeneWebseite/Selima.ttf") format("ttf"),
+    url("/Users/Sarah/Coding/eigeneWebseite/Selima.otf") format("otf");
+}
+
+html{
+  min-height:100%;/* make sure it is at least as tall as the viewport */
+  position:relative;
+}
+body{
+  height:100%; /* force the BODY element to match the height of the HTML element */
+}
+
+.name {
+  font-family: "Selima";
+  text-align: center;
+  margin: 3rem;
+}
+
+.link {
+  font-family: "Selima";
+  text-align: center;
+  margin: 3rem;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.link:hover {
+  color: white;
+}
+
+.profil {
+  display: block;
+  margin: 20% auto;
+
+}
+
+main {
+  display: flex;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+}
+
+section {
+  flex-grow: 1;
+   background: #e6e6e6;
+   width: 20vw;
+}
+
+aside {
+   width: 70vw;
+   flex-shrink: 0;
+   flex-grow: 2;
+}
+
+.square {
+  width: 50%;
+  height: 50%;
+  background-color: #c2bbcc;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+  position: relative;
+}
+
+.square:hover {
+    background-color: #524d61;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clickable {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
