@@ -44,7 +44,7 @@ p {
 .contact {
   border: 3px solid #534d62;
   width: 50%;
-  margin: 20% auto;
+  margin: 20% auto 5% auto;
 }
 
 .contact-text {
@@ -82,7 +82,10 @@ p {
   margin: 20% auto;
   max-width: 70%;
   height: auto;
+}
 
+.social_links {
+margin-top: 5%;
 }
 
 main {
