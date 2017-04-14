@@ -20,6 +20,8 @@ p {
   text-align: center;
   margin: 3rem;
   margin: 20% auto;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
 }
 
 .name {
@@ -27,15 +29,26 @@ p {
   font-weight: normal;
   font-size: 4em;
   color: #534d62;
+  text-transform: none;
 }
 
 .title {
   color: #534d62;
-  font-family: 'Montserrat';
-  text-transform: uppercase;
   font-weight: bold;
   white-space: nowrap;
   font-size: 0.6em;
+}
+
+.contact {
+  border: 3px solid #534d62;
+  width: 70%;
+  margin: 20% auto;
+}
+
+.contact-text {
+  font-size: 1em;
+  font-weight: 600;
+  color: #534d62;
 }
 
 .title-square {
