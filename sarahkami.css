@@ -1,35 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 @font-face {
     font-family: 'Selima';
     src:url('Selima.ttf.woff') format('woff'),
         url('Selima.ttf.svg#Selima') format('svg'),
         url('Selima.ttf.eot'),
         url('Selima.ttf.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 html{
-  min-height:100%;/* make sure it is at least as tall as the viewport */
+  min-height:100%;
   position:relative;
 }
 body{
-  height:100%; /* force the BODY element to match the height of the HTML element */
+  height:100%;
+}
+
+p {
+  text-align: center;
+  margin: 3rem;
+  margin: 20% auto;
 }
 
 .name {
   font-family: 'Selima';
   font-weight: normal;
-  font-size: 42px;
-  text-align: center;
-  margin: 3rem;
+  font-size: 4em;
+  color: #534d62;
+}
+
+.title {
+  color: #534d62;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: bold;
+  white-space: nowrap;
+  font-size: 0.6em;
+}
+
+.title-square {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: bold;
+  white-space: nowrap;
+  font-size: 0.6em;
 }
 
 .link {
-  font-family: 'Selima';
-  text-align: center;
-  margin: 3rem;
+  color: #534d62;
   text-decoration: none;
-  color: black;
   cursor: pointer;
   -webkit-transition: background-color 1000ms linear;
   -moz-transition: background-color 1000ms linear;
@@ -82,6 +101,9 @@ aside {
   -ms-transition: background-color 1000ms linear;
   transition: background-color 1000ms linear;
   position: relative;
+  vertical-align: middle;
+display: table-cell;
+min-height: 10em;
 }
 
 .square:hover {
