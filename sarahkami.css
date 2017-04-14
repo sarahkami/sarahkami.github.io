@@ -88,6 +88,10 @@ p {
 margin-top: 5%;
 }
 
+.social {
+  width: 40px;
+}
+
 main {
   display: flex;
   position: absolute;
