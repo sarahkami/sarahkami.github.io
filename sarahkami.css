@@ -37,7 +37,7 @@ p {
   color: #534d62;
   font-weight: bold;
   white-space: nowrap;
-  font-size: 0.6em;
+  font-size: 0.8em;
   margin-top: 5%;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 .link {
-  color: #534d62;
+  color: #963239;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: background-color 1000ms linear;
@@ -123,14 +123,12 @@ aside {
    padding-top: 5%;
 }
 
+.colored {
+  background-color: #c2bbcc;
+}
+
 .square {
   width: 60%;
-  background-color: #c2bbcc;
-  -webkit-transition: background-color 1000ms linear;
-  -moz-transition: background-color 1000ms linear;
-  -o-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
   position: relative;
   height: 20%;
   margin: auto;
@@ -140,8 +138,17 @@ aside {
   left: 0;
 }
 
-.square:hover {
-  background-color: #524d61;
+.transition {
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.transition:hover {
+  color: #620007;
+  /*background-color: #524d61;*/
 }
 
 .outer {
@@ -175,3 +182,5 @@ aside {
   color: #524d61;
   margin: 40px auto;
 }
+
+/*#963239*/
