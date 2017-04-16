@@ -56,6 +56,7 @@ p {
 
 .title-square {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   text-transform: uppercase;
   font-weight: 800;
   white-space: nowrap;
@@ -66,7 +67,8 @@ p {
 }
 
 .link {
-  color: #963239;
+  color: #ac262f;
+  font-weight: 800;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: background-color 1000ms linear;
@@ -182,5 +184,3 @@ aside {
   color: #524d61;
   margin: 40px auto;
 }
-
-/*#963239*/
