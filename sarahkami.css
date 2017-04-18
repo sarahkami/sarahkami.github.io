@@ -36,7 +36,7 @@ p {
 .title {
   color: #534d62;
   font-weight: bold;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   font-size: 1em;
   margin-top: 5%;
 }
