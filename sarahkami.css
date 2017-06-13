@@ -70,7 +70,17 @@ html, body {
 
 
 
+p {
+  font-family: Montserrat;
+}
 
+.outer {
+  margin-left: 245px;
+}
+
+.description {
+  margin: 20% 10%;
+}
 .name {
   font-family: 'Selima';
   font-weight: normal;
@@ -119,6 +129,7 @@ section {
   background: #e6e6e6;
   width: 245px;
   height: 100%;
+  float: left;
 }
 
 #section1 {
@@ -139,14 +150,6 @@ section {
 
 
 
-
-aside {
-   width: 50vw;
-   flex-shrink: 0;
-   flex-grow: 2;
-   overflow: auto;
-   padding-top: 5%;
-}
 
 .avatar {
   max-width: 245px;
