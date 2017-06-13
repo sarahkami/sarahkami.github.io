@@ -51,20 +51,23 @@ html, body {
 }
 
 .blocks:nth-child(2) {
-  background: #ffff99;
+  background: #dbd3de;
 }
 .blocks:nth-child(3) {
-  background: #ea9a9a;
+  background: #8585ad;
 }
 .blocks:nth-child(4) {
-  background: #ff6699;
-}
-.blocks:nth-child(5) {
   background: #805fa8;
 }
-.blocks:nth-child(6) {
-  background: #666699;
+.blocks:nth-child(5) {
+  background: #ff6699;
 }
+.blocks:nth-child(6) {
+  background: #ea9a9a;
+}
+
+
+
 
 
 
@@ -119,20 +122,23 @@ section {
 }
 
 #section1 {
-  background: #ff6699;
+  background: #f3f0f4;
 }
 #section2 {
-  background: #666699;
+  background: #b3b3cc;
 }
 #section3 {
-  background: #805fa8;
+  background: #a38bc1;
 }
 #section4 {
-  background: #ffff99;
+  background: #ff99bb;
 }
 #section5 {
-  background: #ea9a9a;
+  background: #f2c0c0;
 }
+
+
+
 
 aside {
    width: 50vw;
