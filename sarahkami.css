@@ -72,6 +72,14 @@ html, body {
 
 p {
   font-family: Montserrat;
+  text-align: justify;
+  color: #534d62;
+}
+
+.vertical-text {
+	transform: rotate(90deg);
+  font-family: Selima;
+  font-size: 1000%;
 }
 
 .outer {
@@ -155,4 +163,21 @@ section {
   max-width: 245px;
   margin: 0% 50%;
   margin-top: 100px;
+}
+
+
+.link {
+  color: black;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.link:hover {
+  color: white;
 }
