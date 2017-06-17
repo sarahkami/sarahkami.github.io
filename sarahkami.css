@@ -51,19 +51,19 @@ html, body {
 }
 
 .blocks:nth-child(2) {
-  background: #dbd3de;
+  background: #ebd8df;
 }
 .blocks:nth-child(3) {
-  background: #8585ad;
+  background: #e3d8eb;
 }
 .blocks:nth-child(4) {
-  background: #805fa8;
+  background: #d8dfeb;
 }
 .blocks:nth-child(5) {
-  background: #ff6699;
+  background: #d8ebe1;
 }
 .blocks:nth-child(6) {
-  background: #ea9a9a;
+  background: #e8ebd8;
 }
 
 
@@ -87,7 +87,7 @@ p {
 }
 
 .description {
-  margin: 20% 30%;
+   margin: 20% 40% 10% 0;
 }
 .name {
   font-family: 'Selima';
@@ -122,7 +122,7 @@ p {
 
 .social_links {
 margin-top: 5%;
-text-align: center;
+text-align: left;
 }
 
 .social {
@@ -141,19 +141,19 @@ section {
 }
 
 #section1 {
-  background: #f3f0f4;
+  background: #ccb3bc;
 }
 #section2 {
   background: #b3b3cc;
 }
 #section3 {
-  background: #a38bc1;
+  background: #b3c0cc;
 }
 #section4 {
-  background: #ff99bb;
+  background: #b3ccc3;
 }
 #section5 {
-  background: #f2c0c0;
+  background: #cbccb3;
 }
 
 
@@ -163,6 +163,9 @@ section {
   max-width: 245px;
   float: left;
   padding: 0 20px 20px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
 }
 
 
@@ -184,4 +187,5 @@ section {
 
 .content {
   margin-top: 100px;
+  margin-left: 30%;
 }
