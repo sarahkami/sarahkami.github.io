@@ -168,6 +168,25 @@ section {
   left: 250px;
 }
 
+@media (max-width: 1200px) {
+  .avatar {
+    max-width: 225px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .avatar {
+    max-width: 200px;
+  }
+}
+
+/*@media (max-width: 900px) {
+  .avatar {
+    max-width: 200px;
+    float: none;
+  }
+}*/
+
 
 .link {
   color: black;
