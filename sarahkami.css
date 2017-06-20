@@ -11,7 +11,6 @@
 html, body {
   width: 100%;
   height: 100%;
-  /* overflow: hidden; */
   padding: 0;
   margin: 0;
 }
@@ -66,14 +65,16 @@ html, body {
   background: #e8ebd8;
 }
 
-
-
-
-
 p {
   font-family: Montserrat;
   text-align: justify;
   color: #534d62;
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+    font-size: 2.5em;
+  }
 }
 
 .vertical-text {
@@ -89,36 +90,6 @@ p {
 .description {
    margin: 20% 40% 10% 0;
 }
-.name {
-  font-family: 'Selima';
-  font-weight: normal;
-  font-size: 4em;
-  color: #534d62;
-  text-transform: none;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.title {
-  color: #534d62;
-  font-weight: bold;
-  /*white-space: nowrap;*/
-  font-size: 1em;
-  margin-top: 5%;
-}
-
-.contact {
-  border: 3px solid #534d62;
-  width: 50%;
-  margin: 20% auto 5% auto;
-}
-
-.contact-text {
-  font-size: 0.8em;
-  font-weight: 600;
-  color: #534d62;
-  margin: 0.5em;
-}
 
 .social_links {
 margin-top: 5%;
@@ -127,13 +98,9 @@ text-align: left;
 
 .social {
   width: 40px;
-  /*margin-left: auto;
-	margin-right: auto;
-	display: block;*/
 }
 
 section {
-  /*flex-grow: 1;*/
   background: #e6e6e6;
   width: 245px;
   height: 100%;
@@ -156,17 +123,14 @@ section {
   background: #cbccb3;
 }
 
-
-
-
-.avatar {
+/*.avatar {
   max-width: 245px;
   float: left;
   padding: 0 20px 20px;
   position: absolute;
   top: 100px;
   left: 250px;
-}
+}*/
 
 @media (max-width: 1200px) {
   .avatar {
@@ -204,7 +168,12 @@ section {
   color: white;
 }
 
+.nav-link:hover {
+  color: #e3d8eb;
+  font-weight: bold;
+}
+
 .content {
-  margin-top: 100px;
-  margin-left: 30%;
+  margin-top: 140px;
+  margin-left: 20%;
 }
