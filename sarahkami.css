@@ -65,7 +65,7 @@ html, body {
   background: #e8ebd8;
 }
 
-p {
+p, ul {
   font-family: Montserrat;
   text-align: justify;
   color: #534d62;
@@ -87,8 +87,16 @@ p {
   margin-left: 245px;
 }
 
-.description {
-   margin: 20% 40% 10% 0;
+.description-box {
+   margin: 20% 40% 0 0;
+}
+
+.description-list {
+  margin: 2% 40% 0 0;
+}
+
+.description-margin-bottom {
+  margin: 2% 40% 10% 0;
 }
 
 .social_links {
